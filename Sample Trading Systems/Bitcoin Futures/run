@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+source /usr/local/rvm/environments/ruby-1.9.3-p374@global
+bundle install
+ruby /mtw/system.rb > "/mtw/log/$(date -u +'%Y%m%d-%H%M').log" 2>&1
