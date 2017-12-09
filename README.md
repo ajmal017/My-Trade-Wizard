@@ -1,5 +1,3 @@
-# My Trade Wizard
-
 My Trade Wizard is an open-source platform for automating trading systems.  It targets the Interactive Brokers API, and supports stocks & futures.  There are 3 main components:
 
 - **Core Library**: is a Ruby gem that defines a Domain Specific Language for creating your own trading systems, and provides them with market data & execution capabilities.
